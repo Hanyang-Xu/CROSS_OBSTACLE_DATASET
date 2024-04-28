@@ -5,7 +5,7 @@ import numpy as np
 from matplotlib import lines
 
 # Change to the absolute address of the downloaded dataset.
-path = "D:\\lab\\experiment\\data\\czk"  # Read one subject at a time.
+path = "D:\\lab\\experiment\\data\\AB01"  # Read one subject at a time.
 Cate = ['Left', 'Right']
 Height = ['h0', 'h75', 'h150', 'h225', 'h300']  # h0->flat; h75->height of obstacle=7.5cm; h150->15cm; h225->22.5cm; h300->30cm
 color_dict = {'h0': 'grey', 'h75': 'orange', 'h150': 'dodgerblue', 'h225': 'lime', 'h300': 'violet'}
